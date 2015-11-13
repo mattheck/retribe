@@ -765,6 +765,28 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+article {
+	background-color: #339900;
+	    transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
+    -webkit-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
+    -moz-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
+    -o-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
+    -ms-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
+    padding: 100px;
+}
+
+.entry-header, .entry-content, .entry-footer {
+	    transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
+	-webkit-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
+    -moz-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
+    -o-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
+    -ms-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
+}
+
+.hentry {
+    margin: 30em -1em;
+}
+
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
