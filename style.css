@@ -766,24 +766,34 @@ a:active {
 }
 
 article {
-	background-color: #339900;
-<<<<<<< HEAD
-    padding: 100px;
+    padding: 15em 10em;
 }
 
-article:odd {
+article:nth-child(4n-3) {
+	background-color: #339900;
+}
+
+article:nth-child(4n-2) {
+	background-color: #FF11E3;
+}
+
+article:nth-child(4n-1) {
+	background-color: #0971FF;
+}
+
+article:nth-child(4n) {
+	background-color: #FFEF08;
+}
+
+article:nth-child(odd) {
 	transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
-=======
-	    transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
->>>>>>> origin/master
     -webkit-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
     -moz-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
     -o-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
     -ms-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
-<<<<<<< HEAD
 }
 
-.entry-header:odd, .entry-content:odd, .entry-footer:odd {
+article:nth-child(odd) .entry-header, article:nth-child(odd) .entry-content, article:nth-child(odd) .entry-footer {
 	transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
 	-webkit-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
     -moz-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
@@ -791,24 +801,15 @@ article:odd {
     -ms-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
 }
 
- article:even {
+ article:nth-child(even) {
 	 transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
-=======
-    margin: 100px -4px;
-    padding: 100px;
-}
-
-.entry-header, .entry-content, .entry-footer {
-	    transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
->>>>>>> origin/master
 	-webkit-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
     -moz-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
     -o-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
     -ms-transform: rotate(-354deg) scale(1) skew(6deg) translate(0px);
 }
 
-<<<<<<< HEAD
-.entry-header:even, .entry-content:even, .entry-footer:even {
+article:nth-child(even) .entry-header, article:nth-child(even) .entry-content, article:nth-child(even) .entry-footer {
 	transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
     -webkit-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
     -moz-transform: rotate(354deg) scale(1) skew(-6deg) translate(0px);
@@ -817,10 +818,8 @@ article:odd {
 }
 
 .hentry {
-    margin: 30em -1em;
+    margin: 40em -1em;
 }
-=======
->>>>>>> origin/master
 
 /*--------------------------------------------------------------
 ## Asides
