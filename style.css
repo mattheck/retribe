@@ -779,6 +779,12 @@ p.site-title {
 	margin: 0 0 1.5em;
 }
 
+.entry-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 article:nth-child(4n-3) {
 	background-color: #272341;
 }
@@ -869,7 +875,7 @@ article:nth-child(even) .entry-header, article:nth-child(even) .entry-content, a
 
 
 .single #colophon {
-	margin-top: 3em;
+	margin-top: 5em;
 }
 
 /*--------------------------------------------------------------
