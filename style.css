@@ -618,6 +618,11 @@ a:active {
 	overflow: hidden;
 }
 
+.site-main .post-navigation {
+	z-index: 1;
+    position: relative;
+}
+
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -860,6 +865,11 @@ article:nth-child(even) .entry-header, article:nth-child(even) .entry-content, a
 
 .hentry {
     margin: 0 -1em;
+}
+
+
+.single #colophon {
+	margin-top: 3em;
 }
 
 /*--------------------------------------------------------------
