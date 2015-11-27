@@ -37,6 +37,7 @@
 				<p class="site-description"><?php echo $description; ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
+		<?php echo get_avatar( 'matt.heckmann@gmail.com', 225 ); ?>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'retribe' ); ?></button>
