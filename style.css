@@ -878,6 +878,40 @@ article:nth-child(even) .entry-header, article:nth-child(even) .entry-content, a
 	margin-top: 5em;
 }
 
+.site-branding {
+	float:left;
+}
+
+#masthead .avatar {
+	float:right;
+	border-radius: 100%;
+    z-index: 5;
+    position: relative;
+    margin-right: 1em;
+}
+
+body.single {
+    background: #272341;
+}
+
+.single article {
+    border: 1em solid #404040;
+}
+
+.single .post-navigation {
+	padding: 0 9em;
+}
+
+.single .nav-previous:before {
+    content: "\003c";
+    padding-right: 5px;
+}
+
+.single .nav-next:after {
+    content: "\003e";
+    padding-left: 5px;
+}
+
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
