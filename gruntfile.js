@@ -39,7 +39,13 @@ grunt.registerTask('default', ['sass']);
           src: ['style.css']
       }
     }
+  },
+    jshint: {
+    all: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js']
   }
+
+
+
   });
 
   // Load the plugin that provides the "uglify" task.
@@ -50,5 +56,7 @@ grunt.registerTask('default', ['sass']);
 
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
+
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
 };
